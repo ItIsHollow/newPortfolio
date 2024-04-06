@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/newPortfolio/static/css/main.c3d60ff4.css",
+    "main.js": "/newPortfolio/static/js/main.d110a0f0.js",
+    "static/js/787.25eaef86.chunk.js": "/newPortfolio/static/js/787.25eaef86.chunk.js",
+    "static/media/RedditMono-SemiBold.eot": "/newPortfolio/static/media/RedditMono-SemiBold.9e1081b4c7222b2b794e.eot",
+    "static/media/RedditMono-Medium.eot?": "/newPortfolio/static/media/RedditMono-Medium.837b7521d183c6237adb.eot",
+    "static/media/RedditMono-Bold.eot": "/newPortfolio/static/media/RedditMono-Bold.b097254b70031a0bc7ea.eot",
+    "static/media/RedditMono-Regular.eot?": "/newPortfolio/static/media/RedditMono-Regular.8c952fbc8a48bbe6f62d.eot",
+    "static/media/RedditMono-Bold.ttf": "/newPortfolio/static/media/RedditMono-Bold.07ba682d93131c85cc14.ttf",
+    "static/media/RedditMono-Medium.ttf": "/newPortfolio/static/media/RedditMono-Medium.5b4833e19cefd023332a.ttf",
+    "static/media/RedditMono-SemiBold.ttf": "/newPortfolio/static/media/RedditMono-SemiBold.8415165bf18d2d122c07.ttf",
+    "static/media/RedditMono-Regular.ttf": "/newPortfolio/static/media/RedditMono-Regular.a6b85d2b217fcd04b740.ttf",
+    "static/media/photo.webp": "/newPortfolio/static/media/photo.e64fe6aabdd98bb4a965.webp",
+    "static/media/RedditMono-Medium.woff2": "/newPortfolio/static/media/RedditMono-Medium.b8be2e4a65c5523027e5.woff2",
+    "static/media/RedditMono-Bold.woff2": "/newPortfolio/static/media/RedditMono-Bold.75decd6bcf70e1be2482.woff2",
+    "static/media/RedditMono-SemiBold.woff2": "/newPortfolio/static/media/RedditMono-SemiBold.5e7234bce30f1195d203.woff2",
+    "static/media/RedditMono-Regular.woff2": "/newPortfolio/static/media/RedditMono-Regular.4e7796604ab6bfae22d8.woff2",
+    "static/media/EvklidMin.webp": "/newPortfolio/static/media/EvklidMin.b4f5cf23e0feae81629d.webp",
+    "static/media/icons-sprite copy.svg": "/newPortfolio/static/media/icons-sprite copy.fb8591a858a2e18d7c336332c66ef217.svg",
+    "static/media/CrmMin.webp": "/newPortfolio/static/media/CrmMin.854bd40de1da847f7084.webp",
+    "index.html": "/newPortfolio/index.html",
+    "main.c3d60ff4.css.map": "/newPortfolio/static/css/main.c3d60ff4.css.map",
+    "main.d110a0f0.js.map": "/newPortfolio/static/js/main.d110a0f0.js.map",
+    "787.25eaef86.chunk.js.map": "/newPortfolio/static/js/787.25eaef86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3d60ff4.css",
+    "static/js/main.d110a0f0.js"
+  ]
+}
