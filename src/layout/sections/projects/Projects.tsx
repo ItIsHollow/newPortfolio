@@ -14,16 +14,16 @@ export const Projects = () => {
         <SectionTitle>Projects</SectionTitle>
         <FlexWrapper justify="center" gap="30px">
           <Project
-            codeLink="https://github.com/ItIsHollow/testPortfolioOld"
-            viewLink="https://itishollow.github.io/testPortfolioOld/"
+            codeLink="#"
+            viewLink="#"
             src={crm}
             title="CRM"
             descr="CRM система на JS"
             alt="crm"
           />
           <Project
-            codeLink="https://github.com/ItIsHollow/testPortfolioOld"
-            viewLink="https://itishollow.github.io/testPortfolioOld/"
+            codeLink="#"
+            viewLink="#"
             src={evklid}
             title="Evklid"
             descr="Сайт строительной компании на чистом html/css/js"
