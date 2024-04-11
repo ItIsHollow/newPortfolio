@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/newPortfolio/static/css/main.c3d60ff4.css",
-    "main.js": "/newPortfolio/static/js/main.417fcce3.js",
-    "static/js/787.25eaef86.chunk.js": "/newPortfolio/static/js/787.25eaef86.chunk.js",
+    "main.js": "/newPortfolio/static/js/main.e6f36fb3.js",
+    "static/js/787.6658d8b7.chunk.js": "/newPortfolio/static/js/787.6658d8b7.chunk.js",
     "static/media/RedditMono-SemiBold.eot": "/newPortfolio/static/media/RedditMono-SemiBold.9e1081b4c7222b2b794e.eot",
     "static/media/RedditMono-Medium.eot?": "/newPortfolio/static/media/RedditMono-Medium.837b7521d183c6237adb.eot",
     "static/media/RedditMono-Bold.eot": "/newPortfolio/static/media/RedditMono-Bold.b097254b70031a0bc7ea.eot",
@@ -21,11 +21,11 @@
     "static/media/CrmMin.webp": "/newPortfolio/static/media/CrmMin.854bd40de1da847f7084.webp",
     "index.html": "/newPortfolio/index.html",
     "main.c3d60ff4.css.map": "/newPortfolio/static/css/main.c3d60ff4.css.map",
-    "main.417fcce3.js.map": "/newPortfolio/static/js/main.417fcce3.js.map",
-    "787.25eaef86.chunk.js.map": "/newPortfolio/static/js/787.25eaef86.chunk.js.map"
+    "main.e6f36fb3.js.map": "/newPortfolio/static/js/main.e6f36fb3.js.map",
+    "787.6658d8b7.chunk.js.map": "/newPortfolio/static/js/787.6658d8b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d60ff4.css",
-    "static/js/main.417fcce3.js"
+    "static/js/main.e6f36fb3.js"
   ]
 }
