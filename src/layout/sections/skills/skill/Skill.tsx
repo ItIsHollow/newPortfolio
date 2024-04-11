@@ -1,29 +1,17 @@
 import React from "react";
-import styled from "styled-components";
 import { Icon } from "../../../../components/icon/Icon";
+import { SS } from "../Skills_Styles";
 
 type SkillPropsType = {
   iconId: string;
-  descr: string;
+  title: string;
 };
 
-export const Skill = (props: SkillPropsType) => {
+export const Skill: React.FC<SkillPropsType> = (props: SkillPropsType) => {
   return (
-    <StyldeSkill>
+    <SS.Skill>
       <Icon iconId={props.iconId} />
-      <SkillTitle>{props.descr}</SkillTitle>
-    </StyldeSkill>
+      <SS.SkillTitle>{props.title}</SS.SkillTitle>
+    </SS.Skill>
   );
 };
-
-const StyldeSkill = styled.div`
-  min-width: 50px;
-  min-height: 50px;
-  border: 1px solid gray;
-  /* color: red; */
-`;
-
-const SkillTitle = styled.h6`
-  color: cadetblue;
-  text-transform: uppercase;
-`;

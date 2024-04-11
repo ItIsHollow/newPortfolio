@@ -1,35 +1,37 @@
-import React from "react";
-import styled from "styled-components";
+import React, { useEffect, useState } from "react";
 import { Logo } from "../../components/logo/Logo";
-import { Menu } from "../../components/menu/Menu";
-import { theme } from "../../components/styles/Theme";
 import { Container } from "../../components/Container";
 import { FlexWrapper } from "../../components/FlexWrapper";
+import { HS } from "./Header_Styles";
+import { DesktopMenu } from "./headerMenu/desktopMenu/DesktopMenu";
+import { MobileMenu } from "./headerMenu/mobileMenu/MobileMenu";
 
-const headerItems = ["Home/Up", "Skills", "Project", "About", "Social"];
+const headerItems = ["Домой", "Навыки", "Проекты", "Обо Мне", "Соц.Сети"];
 
-export const Header = () => {
+export const Header: React.FC = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 769;
+
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
   return (
-    <StyledHeader>
+    <HS.Header>
       <Container>
         <FlexWrapper justify="space-between" align="center">
           <Logo />
-          <Menu menuItems={headerItems} fontSize="20px" gap="50px" />
+
+          {width < breakpoint ? (
+            <MobileMenu menuItems={headerItems} />
+          ) : (
+            <DesktopMenu menuItems={headerItems} />
+          )}
         </FlexWrapper>
       </Container>
-    </StyledHeader>
+    </HS.Header>
   );
 };
-
-const StyledHeader = styled.header`
-  background-color: ${theme.color.primary};
-  padding: 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-
-  ${FlexWrapper} {
-  }
-`;

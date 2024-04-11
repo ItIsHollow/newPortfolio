@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     a {
         text-decoration: none;
         color: ${theme.color.font};
+        cursor: pointer;
     }
 
     ul {
@@ -32,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     button {
         background-color: unset;
         border: none;
+        cursor: pointer;
         color: ${theme.color.font};
     }
 
@@ -42,14 +44,27 @@ export const GlobalStyle = createGlobalStyle`
 
     section:nth-of-type(even) {
         background-color: ${theme.color.secondary};
-    }
-
-    /* section + section {
-        padding-top: 100px;
-    } */
-
+    } 
     section {
         padding: 100px  0 140px;
+
+        @media ${theme.media.tablet} {
+            padding: 80px 0 100px;
+
+            &:first-of-type {
+                /* background-color: red; */
+                padding-top: 100px;
+            }
+        }
+
+        @media ${theme.media.mobile} {
+            padding: 30px 0 50px;
+
+            &:first-of-type {
+                /* background-color: red; */
+                padding-top: 100px;
+            }
+        }
     }
 
     h2 {
