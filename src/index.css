@@ -1,39 +1,49 @@
 @font-face {
-  font-family: "Reddit Mono";
-  src: local("Reddit Mono"),
-    url("./assets/fonts/RedditMono-Regular.eot?") format("eot"),
-    url("./assets/fonts/RedditMono-Regular.woff2") format("woff2"),
-    url("./assets/fonts/RedditMono-Regular.ttf") format("truetype");
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./assets/fonts/Comfortaa-Light.eot") format("eot"),
+    url("./assets/fonts/Comfortaa-Light.woff2") format("woff2"),
+    url("./assets/fonts/Comfortaa-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./assets/fonts/Comfortaa-Regular.eot?") format("eot"),
+    url("./assets/fonts/Comfortaa-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Comfortaa-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Reddit Mono";
-  src: local("Reddit Mono"),
-    url("./assets/fonts/RedditMono-Medium.eot?") format("eot"),
-    url("./assets/fonts/RedditMono-Medium.woff2") format("woff2"),
-    url("./assets/fonts/RedditMono-Medium.ttf") format("truetype");
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./assets/fonts/Comfortaa-Medium.eot?") format("eot"),
+    url("./assets/fonts/Comfortaa-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Comfortaa-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Reddit Mono";
-  src: local("Reddit Mono"),
-    url("./assets/fonts/RedditMono-SemiBold.eot") format("eot"),
-    url("./assets/fonts/RedditMono-SemiBold.woff2") format("woff2"),
-    url("./assets/fonts/RedditMono-SemiBold.ttf") format("truetype");
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./assets/fonts/Comfortaa-SemiBold.eot") format("eot"),
+    url("./assets/fonts/Comfortaa-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Comfortaa-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Reddit Mono";
-  src: local("Reddit Mono"),
-    url("./assets/fonts/RedditMono-Bold.eot") format("eot"),
-    url("./assets/fonts/RedditMono-Bold.woff2") format("woff2"),
-    url("./assets/fonts/RedditMono-Bold.ttf") format("truetype");
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./assets/fonts/Comfortaa-Bold.eot") format("eot"),
+    url("./assets/fonts/Comfortaa-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Comfortaa-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }

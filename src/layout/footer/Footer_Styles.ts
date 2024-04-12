@@ -4,7 +4,7 @@ import { font } from "../../components/styles/Common";
 import { FlexWrapper } from "../../components/FlexWrapper";
 
 const Footer = styled.footer`
-  padding: 40px 0 20px;
+  padding: 40px 0 30px;
   background-color: ${theme.color.primary};
   /* ${FlexWrapper} {
     flex-wrap: wrap;
@@ -24,6 +24,7 @@ const Cheer = styled.span`
 `;
 
 const InfoBox = styled.div`
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;

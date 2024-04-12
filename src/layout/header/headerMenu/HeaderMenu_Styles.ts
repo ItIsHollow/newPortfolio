@@ -7,8 +7,8 @@ const Link = styled.a`
   text-align: center;
   ${font({
     weight: 400,
-    Fmax: 25,
-    Fmin: 15,
+    Fmax: 16,
+    Fmin: 14,
   })}
 `;
 
@@ -19,7 +19,7 @@ const DesktopMenu = styled.nav`
   ul {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
   }
 `;
 
@@ -57,15 +57,15 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
 
 const BurgerButton = styled.button<{ isOpen: boolean }>`
   position: fixed;
-  top: 20px;
+  top: 25px;
   right: 30px;
-  width: 50px;
-  height: 50px;
+  width: 28px;
+  height: 28px;
   z-index: 100;
 
   span {
     display: block;
-    width: 50px;
+    width: 24px;
     height: 2px;
     background-color: ${theme.color.font};
     position: absolute;
@@ -82,11 +82,12 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     &::before {
       content: "";
       display: block;
-      width: 50px;
+      width: 28px;
       height: 2px;
+      right: 0;
       background-color: ${theme.color.font};
       position: absolute;
-      transform: translateY(-15px);
+      transform: translateY(-8px);
 
       ${(props) =>
         props.isOpen &&
@@ -98,16 +99,18 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     &::after {
       content: "";
       display: block;
-      width: 50px;
+      width: 20px;
       height: 2px;
+      right: 0;
       background-color: ${theme.color.font};
       position: absolute;
-      transform: translateY(15px);
+      transform: translateY(8px);
 
       ${(props) =>
         props.isOpen &&
         css<{ isOpen: boolean }>`
           transform: rotate(45deg) translateY(0);
+          width: 28px;
         `}
     }
   }

@@ -1,20 +1,19 @@
 import React from "react";
-import styled from "styled-components";
 import { SectionTitle } from "../../../components/SectionTitle";
-import { AccordionAbout } from "./accordionAbout/AccordionAbout";
+import { AccordionAbout } from "./description/Description";
 import { Container } from "../../../components/Container";
+import { AS } from "./About_Styles";
 
-export const About = () => {
+export const About: React.FC = () => {
   return (
-    <StyledAbout>
+    <AS.About>
       <Container>
-        <SectionTitle>About</SectionTitle>
+        <SectionTitle>Обо мне</SectionTitle>
+        <AS.AboutText>
+          Тут немного всякой личной информации обо мне.
+        </AS.AboutText>
         <AccordionAbout />
       </Container>
-    </StyledAbout>
+    </AS.About>
   );
 };
-
-const StyledAbout = styled.section`
-  min-height: 100px;
-`;

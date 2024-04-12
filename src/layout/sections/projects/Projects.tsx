@@ -19,7 +19,7 @@ const projectsData = [
   {
     src: evklid,
     title: "Evklid",
-    description: "Сайт строительной компании на чистом html/css/js",
+    description: "Сайт строительной компании на html/css/js",
     alt: "evklid",
     viewLink: "#",
     codeLink: "#",
@@ -30,7 +30,7 @@ export const Projects: React.FC = () => {
   return (
     <PS.Projects>
       <Container>
-        <SectionTitle>Projects</SectionTitle>
+        <SectionTitle>Проекты</SectionTitle>
         <FlexWrapper justify="space-between" gap="10px">
           {projectsData.map((project, index) => {
             return (

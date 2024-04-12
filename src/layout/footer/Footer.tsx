@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
               </FS.SocialBox>
             </FS.InfoBox>
           </FlexWrapper>
-          <FS.Text>Спасибо за просмотр</FS.Text>
+          {/* <FS.Text>Спасибо за просмотр</FS.Text> */}
         </FlexWrapper>
       </Container>
     </FS.Footer>

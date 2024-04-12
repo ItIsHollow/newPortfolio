@@ -20,7 +20,7 @@ export const Skills: React.FC = () => {
   return (
     <SS.Skills>
       <Container>
-        <SectionTitle>Skills</SectionTitle>
+        <SectionTitle>Навыки</SectionTitle>
         <FlexWrapper align="center" justify="center" gap="20px">
           {skillsData.map((skill, index) => {
             return (

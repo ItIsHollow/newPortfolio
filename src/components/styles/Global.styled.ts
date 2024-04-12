@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         margin: 0;
-        font-family:'Reddit Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        font-family:'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
             'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
             sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -46,10 +46,10 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${theme.color.secondary};
     } 
     section {
-        padding: 100px  0 140px;
+        padding: 100px  0 100px;
 
         @media ${theme.media.tablet} {
-            padding: 80px 0 100px;
+            padding: 80px 0 80px;
 
             &:first-of-type {
                 /* background-color: red; */
@@ -58,7 +58,7 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         @media ${theme.media.mobile} {
-            padding: 30px 0 50px;
+            padding: 30px 0 30px;
 
             &:first-of-type {
                 /* background-color: red; */
