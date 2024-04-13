@@ -1,26 +1,24 @@
 import React from "react";
-import { Icon } from "../icon/Icon";
 import styled from "styled-components";
 import { theme } from "../styles/Theme";
-import { Cloud } from "../Cloud";
 import { LogoSvg } from "../LogoSvg";
 
 type LogoPropsType = {
   color?: string;
+  width?: string;
+  height?: string;
+  viewBox?: string;
 };
 
 export const Logo: React.FC<LogoPropsType> = (props: LogoPropsType) => {
   return (
     <Link href="#" color={props.color}>
-      {/* <Icon iconId="quote" /> */}
-      {/* <Icon iconId="cloud" width="50px" height="50px" viewBox="0 0 25 25" /> */}
-      {/* <Cloud
-        width="50px"
-        height="50px"
-        viewBox="0 0 25 25"
-        color={theme.color.font}
-      /> */}
-      <LogoSvg />
+      <LogoSvg
+        color={props.color}
+        width={props.width}
+        height={props.height}
+        viewBox={props.viewBox}
+      />
     </Link>
   );
 };

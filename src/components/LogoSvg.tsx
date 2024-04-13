@@ -12,9 +12,9 @@ export const LogoSvg = (props: LogoSvgPropsType) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="100px"
-      height="100px"
-      viewBox="0 0 200 200"
+      width={props.width || "100px"}
+      height={props.height || "100px"}
+      viewBox={props.viewBox || "0 0 200 200"}
       version="1.1"
     >
       <g id="surface1">
