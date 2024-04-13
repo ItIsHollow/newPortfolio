@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newPortfolio/static/css/main.db3328d2.css",
-    "main.js": "/newPortfolio/static/js/main.a767c2f6.js",
+    "main.js": "/newPortfolio/static/js/main.02d0174f.js",
     "static/js/787.6658d8b7.chunk.js": "/newPortfolio/static/js/787.6658d8b7.chunk.js",
     "static/media/Comfortaa-SemiBold.eot": "/newPortfolio/static/media/Comfortaa-SemiBold.838d8f682d9b2b38d451.eot",
     "static/media/Comfortaa-Bold.eot": "/newPortfolio/static/media/Comfortaa-Bold.51aff1744ece3997012d.eot",
@@ -19,16 +19,16 @@
     "static/media/Comfortaa-Regular.woff2": "/newPortfolio/static/media/Comfortaa-Regular.e9fc3f8b43ad01ff42f8.woff2",
     "static/media/Comfortaa-Bold.woff2": "/newPortfolio/static/media/Comfortaa-Bold.26fb6f068af7abd1ecfc.woff2",
     "static/media/Comfortaa-Light.woff2": "/newPortfolio/static/media/Comfortaa-Light.a94c134ebc9bdf8edcd5.woff2",
-    "static/media/EvklidMin.webp": "/newPortfolio/static/media/EvklidMin.b4f5cf23e0feae81629d.webp",
-    "static/media/icons-sprite copy.svg": "/newPortfolio/static/media/icons-sprite copy.fb8591a858a2e18d7c336332c66ef217.svg",
-    "static/media/CrmMin.webp": "/newPortfolio/static/media/CrmMin.854bd40de1da847f7084.webp",
+    "static/media/icons-sprite copy.svg": "/newPortfolio/static/media/icons-sprite copy.003740e23a88a8f55ec35be2dadb22a8.svg",
+    "static/media/EvklidMinResize.webp": "/newPortfolio/static/media/EvklidMinResize.9e88cb4f25796e3539a5.webp",
+    "static/media/CrmMinResize.webp": "/newPortfolio/static/media/CrmMinResize.96c467a1ad2ab29ee4e5.webp",
     "index.html": "/newPortfolio/index.html",
     "main.db3328d2.css.map": "/newPortfolio/static/css/main.db3328d2.css.map",
-    "main.a767c2f6.js.map": "/newPortfolio/static/js/main.a767c2f6.js.map",
+    "main.02d0174f.js.map": "/newPortfolio/static/js/main.02d0174f.js.map",
     "787.6658d8b7.chunk.js.map": "/newPortfolio/static/js/787.6658d8b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db3328d2.css",
-    "static/js/main.a767c2f6.js"
+    "static/js/main.02d0174f.js"
   ]
 }
