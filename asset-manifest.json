@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newPortfolio/static/css/main.db3328d2.css",
-    "main.js": "/newPortfolio/static/js/main.02d0174f.js",
+    "main.js": "/newPortfolio/static/js/main.4957b905.js",
     "static/js/787.6658d8b7.chunk.js": "/newPortfolio/static/js/787.6658d8b7.chunk.js",
     "static/media/Comfortaa-SemiBold.eot": "/newPortfolio/static/media/Comfortaa-SemiBold.838d8f682d9b2b38d451.eot",
     "static/media/Comfortaa-Bold.eot": "/newPortfolio/static/media/Comfortaa-Bold.51aff1744ece3997012d.eot",
@@ -24,11 +24,11 @@
     "static/media/CrmMinResize.webp": "/newPortfolio/static/media/CrmMinResize.96c467a1ad2ab29ee4e5.webp",
     "index.html": "/newPortfolio/index.html",
     "main.db3328d2.css.map": "/newPortfolio/static/css/main.db3328d2.css.map",
-    "main.02d0174f.js.map": "/newPortfolio/static/js/main.02d0174f.js.map",
+    "main.4957b905.js.map": "/newPortfolio/static/js/main.4957b905.js.map",
     "787.6658d8b7.chunk.js.map": "/newPortfolio/static/js/787.6658d8b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db3328d2.css",
-    "static/js/main.02d0174f.js"
+    "static/js/main.4957b905.js"
   ]
 }
