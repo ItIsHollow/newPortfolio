@@ -18,10 +18,11 @@ const Projects = styled.section`
 const Project = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 5px;
   background-color: ${theme.color.primary};
   max-width: 550px;
   width: 100%;
-  padding: 20px;
+  padding: 25px;
   padding-bottom: 40px;
   border: 1px solid ${theme.color.projectBorder};
   border-radius: 50px 0;
@@ -33,7 +34,7 @@ const ImageWrapper = styled.div`
 
 const Image = styled.img`
   width: 100%;
-  height: 280px;
+  /* height: 300px; */
   object-fit: fill;
   background-color: aquamarine;
   border-radius: 24px 8px 8px 8px;
@@ -68,13 +69,36 @@ const Description = styled.p`
     Fmin: 14,
     color: `${theme.color.text}`,
   })}
-  margin: 35px 0 40px;
+  margin: 35px 0;
 `;
 
 const LinkBox = styled.div`
   margin-top: auto;
   display: flex;
   gap: 30px;
+  @media ${theme.media.tablet} {
+    gap: 20px;
+  }
+`;
+
+export const Link = styled.a.attrs(() => ({
+  target: "_blank",
+}))`
+  display: inline-block;
+  /* background-color: green; */
+  background-image: ${theme.color.gradientFon};
+  padding: 15px 10px;
+  min-width: 130px;
+  /* max-width: 140px; */
+  /* height: 40px; */
+  text-align: center;
+  /* line-height: 40px; */
+  border-radius: 50px;
+
+  @media ${theme.media.mobile} {
+    min-width: 120px;
+    font-size: 12px;
+  }
 `;
 
 export const PS = {
@@ -88,4 +112,5 @@ export const PS = {
   Title,
   Description,
   LinkBox,
+  Link,
 };

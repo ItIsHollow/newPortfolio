@@ -1,18 +1,29 @@
 import styled from "styled-components";
+import { theme } from "../../../components/styles/Theme";
 
 // Skills
 const Skills = styled.section``;
 
 // Skill
 const Skill = styled.div`
-  min-width: 50px;
-  min-height: 50px;
-  border: 1px solid gray;
-  /* color: red; */
+  overflow: hidden;
+  padding: 15px;
+  min-width: 75px;
+  max-width: 120px;
+  width: 100%;
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+
+  /* background-image: ${theme.color.gradientFon}; */
+  background-image: ${theme.color.gradientFon2};
+  border-radius: 30px;
 `;
 
 const SkillTitle = styled.h6`
-  color: cadetblue;
   text-transform: uppercase;
 `;
 

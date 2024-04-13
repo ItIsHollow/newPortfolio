@@ -12,9 +12,6 @@ type IconPropsType = {
 
 export const Icon = (props: IconPropsType) => {
   return (
-    // <div>
-    //   <img src={dino} alt="" />
-    // </div>
     <svg
       width={props.width || "50"}
       height={props.height || "50"}
@@ -22,8 +19,6 @@ export const Icon = (props: IconPropsType) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* <use xlinkHref={`${dino}#${props.iconId}`} /> */}
-      {/* <use xlinkHref={`${iconsSprite}#${props.iconId}`} /> */}
       <use xlinkHref={`${iconsSpriteCopy}#${props.iconId}`} />
     </svg>
   );

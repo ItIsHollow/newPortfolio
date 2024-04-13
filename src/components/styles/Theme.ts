@@ -8,6 +8,8 @@ export const theme = {
 
     gradientFon:
       "linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%)",
+    gradientFon2:
+      "linear-gradient(270deg, rgba(19,173,199, 0.7) 0%, rgba(105,120,209, 0.7) 66.67%, rgba(148,93,214, 0.7) 100%)",
 
     gradientBorder: "linear-gradient(143.09deg, #8643DC 0%, #00C0FD 100%)",
 

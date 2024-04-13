@@ -30,7 +30,7 @@ const Button = styled.button`
   background-image: ${theme.color.gradientFon};
   border: none;
   border-radius: 20px;
-  padding: 10px 40px;
+  padding: 15px 60px;
   cursor: pointer;
   margin-bottom: 10px;
 `;

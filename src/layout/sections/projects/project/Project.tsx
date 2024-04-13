@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "../../../../components/Link";
-import { PS } from "../Projects_Stylec";
+import { Link, PS } from "../Projects_Stylec";
 
 type ProjectPropsType = {
   src: string;
   title: string;
   description: string;
   alt: string;
-  viewLink: string;
   codeLink: string;
+  isView: boolean;
+  viewLink?: string;
 };
 
 export const Project: React.FC<ProjectPropsType> = (
@@ -23,8 +23,8 @@ export const Project: React.FC<ProjectPropsType> = (
       <PS.Title>{props.title}</PS.Title>
       <PS.Description>{props.description}</PS.Description>
       <PS.LinkBox>
-        <Link href={props.viewLink}>View</Link>
-        <Link href={props.codeLink}>Code</Link>
+        <Link href={props.codeLink}>Код</Link>
+        {props.isView === true && <Link href={props.viewLink}>Посмотреть</Link>}
       </PS.LinkBox>
     </PS.Project>
   );

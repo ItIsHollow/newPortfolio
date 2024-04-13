@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { AS } from "../About_Styles";
-import sapPhoto from "../../../../assets/images/sapboard.webp";
-import snowPhoto from "../../../../assets/images/snowboard.webp";
 
 export const AccordionAbout: React.FC = () => {
   const [openFlag, setOpenFlag] = useState(false);
@@ -16,7 +14,7 @@ export const AccordionAbout: React.FC = () => {
           openInfoHandler();
         }}
       >
-        Click
+        CLICK
       </AS.Button>
       {openFlag && (
         <AS.DescriptionBox>
