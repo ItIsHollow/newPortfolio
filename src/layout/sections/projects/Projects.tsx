@@ -11,21 +11,22 @@ const projectsData = [
   {
     src: crm,
     title: "CRM",
-    description: "CRM система на JS",
+    description:
+      "CRM система созданная в большей части на JS. Использовались дополнительные библиотеки Bootstrap и Tippy",
     alt: "crm система",
     isView: false,
-    codeLink: "#",
+    codeLink: "https://github.com/ItIsHollow/crmSystem",
     viewLink: "#",
   },
   {
     src: evklid,
     title: "Evklid",
     description:
-      "Сайт строительной компании на html/css/js, Сайт строительной компании на html/css/js,Сайт строительной компании на html/css/js",
+      "Проектный сайт строительной компании созданный на HTML / CSS с добавление логики на JS. Для реализации интерактивных разделов использовал дополнительные библиотеки Swiper и Accordion",
     alt: "evklid",
     isView: true,
-    viewLink: "#",
-    codeLink: "#",
+    viewLink: "https://itishollow.github.io/evklid/",
+    codeLink: "https://github.com/ItIsHollow/evklid",
   },
 ];
 
