@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newPortfolio/static/css/main.db3328d2.css",
-    "main.js": "/newPortfolio/static/js/main.e9c5a506.js",
+    "main.js": "/newPortfolio/static/js/main.778de545.js",
     "static/js/787.6658d8b7.chunk.js": "/newPortfolio/static/js/787.6658d8b7.chunk.js",
     "static/media/Comfortaa-SemiBold.eot": "/newPortfolio/static/media/Comfortaa-SemiBold.838d8f682d9b2b38d451.eot",
     "static/media/Comfortaa-Bold.eot": "/newPortfolio/static/media/Comfortaa-Bold.51aff1744ece3997012d.eot",
@@ -13,6 +13,9 @@
     "static/media/Comfortaa-Medium.ttf": "/newPortfolio/static/media/Comfortaa-Medium.38f1e18437fa36e36627.ttf",
     "static/media/Comfortaa-Regular.ttf": "/newPortfolio/static/media/Comfortaa-Regular.6718cbec512d80eb9cbb.ttf",
     "static/media/Comfortaa-Light.ttf": "/newPortfolio/static/media/Comfortaa-Light.aa1ca0954920c776511c.ttf",
+    "static/media/IwithSnowMini.webp": "/newPortfolio/static/media/IwithSnowMini.598dfa0cd159dbe82eb4.webp",
+    "static/media/barbekuMini.webp": "/newPortfolio/static/media/barbekuMini.4852d56e3324dbb540b4.webp",
+    "static/media/blancardNewResizeMini.webp": "/newPortfolio/static/media/blancardNewResizeMini.ee0f8499cfe0014ef848.webp",
     "static/media/photo.webp": "/newPortfolio/static/media/photo.e64fe6aabdd98bb4a965.webp",
     "static/media/Comfortaa-SemiBold.woff2": "/newPortfolio/static/media/Comfortaa-SemiBold.b3695707e91043d688b5.woff2",
     "static/media/Comfortaa-Medium.woff2": "/newPortfolio/static/media/Comfortaa-Medium.7abe22f862a9a4db79bc.woff2",
@@ -20,15 +23,16 @@
     "static/media/Comfortaa-Bold.woff2": "/newPortfolio/static/media/Comfortaa-Bold.26fb6f068af7abd1ecfc.woff2",
     "static/media/Comfortaa-Light.woff2": "/newPortfolio/static/media/Comfortaa-Light.a94c134ebc9bdf8edcd5.woff2",
     "static/media/icons-sprite copy.svg": "/newPortfolio/static/media/icons-sprite copy.003740e23a88a8f55ec35be2dadb22a8.svg",
+    "static/media/portfolioResize.webp": "/newPortfolio/static/media/portfolioResize.57d0dafb30cad4a96e4a.webp",
     "static/media/EvklidMinResize.webp": "/newPortfolio/static/media/EvklidMinResize.9e88cb4f25796e3539a5.webp",
     "static/media/CrmMinResize.webp": "/newPortfolio/static/media/CrmMinResize.96c467a1ad2ab29ee4e5.webp",
     "index.html": "/newPortfolio/index.html",
     "main.db3328d2.css.map": "/newPortfolio/static/css/main.db3328d2.css.map",
-    "main.e9c5a506.js.map": "/newPortfolio/static/js/main.e9c5a506.js.map",
+    "main.778de545.js.map": "/newPortfolio/static/js/main.778de545.js.map",
     "787.6658d8b7.chunk.js.map": "/newPortfolio/static/js/787.6658d8b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db3328d2.css",
-    "static/js/main.e9c5a506.js"
+    "static/js/main.778de545.js"
   ]
 }
