@@ -5,7 +5,7 @@ import barbekuPhoto from "../../../../assets/images/barbekuMini.webp";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const Description: React.FC = () => {
-  const [openFlag, setOpenFlag] = useState(true);
+  const [openFlag, setOpenFlag] = useState(false);
   const openInfoHandler = () => {
     setOpenFlag((lastFlag) => (lastFlag = !lastFlag));
   };
