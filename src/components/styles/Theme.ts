@@ -1,3 +1,5 @@
+import { easeInOut } from "framer-motion";
+
 export const theme = {
   color: {
     primary: "#0F1624",
@@ -25,4 +27,6 @@ export const theme = {
     mobile: "screen and (max-width: 576px)",
     desktop: "screen and (min-width: 1140px)",
   },
+
+  transition: "0.2s ease-in-out",
 };

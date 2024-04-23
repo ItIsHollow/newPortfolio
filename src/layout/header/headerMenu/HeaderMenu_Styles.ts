@@ -29,7 +29,7 @@ const NavLink = styled(Link)`
     z-index: 1;
     opacity: 0.8;
     transform: scale(0);
-    transition: 0.3s ease-in-out;
+    transition: ${theme.transition};
   }
 
   &:hover,
@@ -111,6 +111,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: ${theme.transition};
 
     ${(props) =>
       props.isOpen &&
@@ -127,6 +128,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
       background-color: ${theme.color.font};
       position: absolute;
       transform: translateY(-8px);
+      transition: ${theme.transition};
 
       ${(props) =>
         props.isOpen &&
@@ -144,6 +146,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
       background-color: ${theme.color.font};
       position: absolute;
       transform: translateY(8px);
+      transition: ${theme.transition};
 
       ${(props) =>
         props.isOpen &&

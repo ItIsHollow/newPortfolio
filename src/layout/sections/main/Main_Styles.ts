@@ -42,6 +42,13 @@ const Photo = styled.img`
   /* width: 350px; */
   min-height: 400px;
   object-fit: cover;
+
+  @media ${theme.media.mobile} {
+    max-width: 350px;
+  }
+  @media screen and (max-width: 450px) {
+    max-width: 310px;
+  }
 `;
 
 const MiniAbout = styled.span`
