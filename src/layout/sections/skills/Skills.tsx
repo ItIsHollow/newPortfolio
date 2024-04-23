@@ -4,6 +4,7 @@ import { FlexWrapper } from "../../../components/FlexWrapper";
 import { Skill } from "./skill/Skill";
 import { Container } from "../../../components/Container";
 import { SS } from "./Skills_Styles";
+import { Fade } from "react-awesome-reveal";
 
 const skillsData = [
   {
@@ -74,22 +75,24 @@ const skillsData = [
 
 export const Skills: React.FC = () => {
   return (
-    <SS.Skills>
+    <SS.Skills id="skills">
       <Container>
         <SectionTitle>Навыки</SectionTitle>
         <FlexWrapper align="center" justify="center" gap="30px" wrap="wrap">
-          {skillsData.map((skill, index) => {
-            return (
-              <Skill
-                width={skill.width}
-                height={skill.height}
-                viewbox={skill.viewbox}
-                title={skill.title}
-                iconId={skill.iconId}
-                key={index}
-              />
-            );
-          })}
+          <Fade cascade={true} damping={0.1} duration={700}>
+            {skillsData.map((skill, index) => {
+              return (
+                <Skill
+                  width={skill.width}
+                  height={skill.height}
+                  viewbox={skill.viewbox}
+                  title={skill.title}
+                  iconId={skill.iconId}
+                  key={index}
+                />
+              );
+            })}
+          </Fade>
         </FlexWrapper>
       </Container>
     </SS.Skills>

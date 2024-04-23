@@ -5,7 +5,10 @@ import { font } from "../../../components/styles/Common";
 
 // Projects
 const Projects = styled.section`
+  position: relative;
   ${FlexWrapper} {
+    row-gap: 30px;
+
     @media ${theme.media.tablet} {
       flex-wrap: wrap;
       justify-content: space-around;
@@ -21,23 +24,33 @@ const Project = styled.div`
   gap: 5px;
   background-color: ${theme.color.primary};
   max-width: 550px;
+  /* min-width: 351px; */
+  flex-basis: 48%;
   width: 100%;
+  /* height: 100%; */
   padding: 25px;
   padding-bottom: 40px;
   border: 1px solid ${theme.color.projectBorder};
   border-radius: 50px 0;
+
+  @media ${theme.media.tablet} {
+    flex-basis: 100%;
+  }
 `;
 
 const ImageWrapper = styled.div`
   margin-bottom: 20px;
 `;
-
-const Image = styled.img`
+type ImagePropsType = {
+  border?: string;
+};
+const Image = styled.img<ImagePropsType>`
   width: 100%;
   /* height: 300px; */
   object-fit: fill;
   background-color: aquamarine;
   border-radius: 24px 8px 8px 8px;
+  border: ${(props) => props.border || "none"};
 `;
 
 const Title = styled.h4`
@@ -94,6 +107,16 @@ export const Link = styled.a.attrs(() => ({
   text-align: center;
   /* line-height: 40px; */
   border-radius: 50px;
+
+  opacity: 0.8;
+  transform: translateY(0);
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(-10%);
+    color: ${theme.color.hoverFont};
+  }
 
   @media ${theme.media.mobile} {
     min-width: 120px;

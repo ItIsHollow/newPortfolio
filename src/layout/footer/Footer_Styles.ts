@@ -4,6 +4,7 @@ import { font } from "../../components/styles/Common";
 import { FlexWrapper } from "../../components/FlexWrapper";
 
 const Footer = styled.footer`
+  position: relative;
   padding: 40px 0 30px;
   background-color: ${theme.color.primary};
   /* ${FlexWrapper} {
@@ -45,6 +46,16 @@ const InfoContact = styled.span`
     Fmax: 18,
     Fmin: 14,
   })}
+
+  a {
+    transition: 0.2s ease-in-out;
+  }
+
+  &:hover {
+    a {
+      color: ${theme.color.hoverFont};
+    }
+  }
 `;
 
 const SocialBox = styled.div`
@@ -77,14 +88,14 @@ const SocialLink = styled.a.attrs(() => ({
     background-image: ${theme.color.gradientBorder};
     z-index: -1;
   }
-`;
 
-const Text = styled.span`
-  ${font({
-    color: `${theme.color.text}`,
-    Fmax: 15,
-    Fmin: 10,
-  })}
+  transform: translateY(0);
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-10%);
+    color: ${theme.color.hoverFont};
+  }
 `;
 
 export const FS = {
@@ -95,5 +106,4 @@ export const FS = {
   InfoContact,
   SocialBox,
   SocialLink,
-  Text,
 };

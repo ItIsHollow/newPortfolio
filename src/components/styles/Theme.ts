@@ -14,6 +14,7 @@ export const theme = {
     gradientBorder: "linear-gradient(143.09deg, #8643DC 0%, #00C0FD 100%)",
 
     font: "#fff",
+    hoverFont: "#800000",
     text: "#BCBCBC",
 
     devBorder: "#DDA0DD",

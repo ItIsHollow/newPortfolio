@@ -1,18 +1,16 @@
 import React from "react";
 import { SectionTitle } from "../../../components/SectionTitle";
-import { AccordionAbout } from "./description/Description";
+import { Description } from "./description/Description";
 import { Container } from "../../../components/Container";
 import { AS } from "./About_Styles";
 
 export const About: React.FC = () => {
   return (
-    <AS.About>
+    <AS.About id="about">
       <Container>
         <SectionTitle>Обо мне</SectionTitle>
-        <AS.AboutText>
-          Тут немного всякой личной информации обо мне.
-        </AS.AboutText>
-        <AccordionAbout />
+        <AS.AboutText>Тут немного личной информации обо мне.</AS.AboutText>
+        <Description />
       </Container>
     </AS.About>
   );

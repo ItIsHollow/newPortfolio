@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { theme } from "../styles/Theme";
 import { LogoSvg } from "../LogoSvg";
+import { animateScroll as scroll } from "react-scroll";
 
 type LogoPropsType = {
   color?: string;
@@ -12,7 +13,13 @@ type LogoPropsType = {
 
 export const Logo: React.FC<LogoPropsType> = (props: LogoPropsType) => {
   return (
-    <Link href="#" color={props.color}>
+    <Link
+      onClick={() => {
+        scroll.scrollToTop();
+      }}
+      href="#"
+      color={props.color}
+    >
       <LogoSvg
         color={props.color}
         width={props.width}

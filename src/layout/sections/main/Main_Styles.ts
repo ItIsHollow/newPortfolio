@@ -4,6 +4,7 @@ import { font } from "../../../components/styles/Common";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 
 const Main = styled.section`
+  /* position: relative; */
   min-height: 100vh;
   display: flex;
 
@@ -36,7 +37,7 @@ const PhotoWrapper = styled.div`
 
 const Photo = styled.img`
   border-radius: 50px 15px 50px 15px;
-  max-width: 350px;
+  max-width: 400px;
   width: 100%;
   /* width: 350px; */
   min-height: 400px;
@@ -72,6 +73,10 @@ const MainTitle = styled.h1`
     Fmax: 36,
     Fmin: 20,
   })}
+
+  p {
+    display: none;
+  }
 `;
 
 export const MS = {

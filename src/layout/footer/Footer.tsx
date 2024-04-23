@@ -37,7 +37,7 @@ const socialLinkData = [
 
 export const Footer: React.FC = () => {
   return (
-    <FS.Footer>
+    <FS.Footer id="contacts">
       <Container>
         <FlexWrapper
           justify="space-between"
@@ -82,7 +82,6 @@ export const Footer: React.FC = () => {
               </FS.SocialBox>
             </FS.InfoBox>
           </FlexWrapper>
-          {/* <FS.Text>Спасибо за просмотр</FS.Text> */}
         </FlexWrapper>
       </Container>
     </FS.Footer>

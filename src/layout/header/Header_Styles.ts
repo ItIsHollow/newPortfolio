@@ -5,6 +5,7 @@ import { Logo } from "../../components/logo/Logo";
 //Header
 const Header = styled.header`
   background-color: ${theme.color.primary};
+  opacity: 0.95;
   padding: 5px 0;
   position: fixed;
   top: 0;

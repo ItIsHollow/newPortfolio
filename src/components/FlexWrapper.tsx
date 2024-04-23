@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 
 type FlexWrapperPropsType = {

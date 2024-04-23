@@ -1,18 +1,44 @@
 import styled, { css } from "styled-components";
 import { theme } from "../../../components/styles/Theme";
 import { font } from "../../../components/styles/Common";
+import { Link } from "react-scroll";
 
 // Menu
-const Link = styled.a`
+const MenuItem = styled.li`
+  position: relative;
+`;
+
+const NavLink = styled(Link)`
   text-align: center;
   ${font({
     weight: 400,
-    Fmax: 16,
+    Fmax: 18,
     Fmin: 14,
   })}
-`;
 
-const MenuItem = styled.li``;
+  &::before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    background-image: ${theme.color.gradientFon};
+
+    position: absolute;
+    bottom: -2px;
+    left: -5px;
+    right: -5px;
+    z-index: 1;
+    opacity: 0.8;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+  }
+
+  &:hover,
+  &.active {
+    &::before {
+      transform: scale(1);
+    }
+  }
+`;
 
 // Desktop
 const DesktopMenu = styled.nav`
@@ -36,23 +62,36 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
 
   background-color: rgba(31, 31, 32, 0.9);
 
-  display: none;
-
-  ${(props) =>
-    props.isOpen &&
-    css<{ isOpen: boolean }>`
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    `}
+  /* display: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  /* transform: scale(0); */
+  transform: translateX(-100%);
 
   ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 300px;
     flex-direction: column;
+    transition: 0.5s ease-in-out;
   }
+
+  ${(props) =>
+    props.isOpen &&
+    css<{ isOpen: boolean }>`
+      /* transform: scale(1); */
+      transform: translateX(0);
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+
+      & ul {
+        gap: 30px;
+      }
+    `}
 `;
 
 const BurgerButton = styled.button<{ isOpen: boolean }>`
@@ -118,7 +157,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
 
 export const HMS = {
   // Menu
-  Link,
+  NavLink,
   MenuItem,
 
   // Desktop

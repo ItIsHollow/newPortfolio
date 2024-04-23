@@ -1,18 +1,29 @@
 import React from "react";
 import { HMS } from "../HeaderMenu_Styles";
 
-type MenuPropsType = {
-  menuItems: Array<string>;
-  // menuItems: String[]
-};
+const items = [
+  { title: "Домой", href: "home" },
+  { title: "Проекты", href: "projects" },
+  { title: "Навыки", href: "skills" },
+  { title: "Обо Мне", href: "about" },
+  { title: "Контакты", href: "contacts" },
+];
 
-export const Menu: React.FC<MenuPropsType> = (props: MenuPropsType) => {
+export const Menu: React.FC = () => {
   return (
     <ul>
-      {props.menuItems.map((item, index) => {
+      {items.map((item, index) => {
         return (
           <HMS.MenuItem key={index}>
-            <HMS.Link href="">{item}</HMS.Link>
+            <HMS.NavLink
+              activeClass="active"
+              to={item.href}
+              smooth={true}
+              spy={true}
+              offset={-200}
+            >
+              {item.title}
+            </HMS.NavLink>
           </HMS.MenuItem>
         );
       })}

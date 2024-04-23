@@ -9,6 +9,7 @@ type ProjectPropsType = {
   codeLink: string;
   isView: boolean;
   viewLink?: string;
+  border: string;
 };
 
 export const Project: React.FC<ProjectPropsType> = (
@@ -17,7 +18,7 @@ export const Project: React.FC<ProjectPropsType> = (
   return (
     <PS.Project>
       <PS.ImageWrapper>
-        <PS.Image src={props.src} alt={props.alt} />
+        <PS.Image border={props.border} src={props.src} alt={props.alt} />
       </PS.ImageWrapper>
 
       <PS.Title>{props.title}</PS.Title>
