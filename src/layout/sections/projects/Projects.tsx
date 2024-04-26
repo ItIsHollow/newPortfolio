@@ -36,7 +36,8 @@ const projectsData = [
   {
     src: portfolioPhoto,
     title: "Портфолио",
-    description: "Портфолио созданное на React и Styled Components",
+    description:
+      "Портфолио созданное на React и Styled Components с использованием дополнительных библиотек: Particles, React-Scroll, Framer Motion, React-Awesome-Reveal",
     alt: "Портфолио",
     isView: false,
     viewLink: "#",
